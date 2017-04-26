@@ -1,0 +1,38 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: KDEvans.co.uk
+email: keyz182@gmail.com
+url: https://kdevans.co.uk
+name: KDEvans.co.uk
+description: Dividing by zero since 1986
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: keyz182
+github_username:  keyz182
+
+# Build settings
+markdown: kramdown
+theme: minima
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
+highlighter: true
+encoding: utf-8
+comments: true
+webrick:
+  headers:
+    Content-Security-Policy: "default-src 'self'; frame-src https://disqus.com/; img-src https://kdevans.co.uk http://kdevans.co.uk https://*.disquscdn.com/ https://*.disqus.com/; script-src data: https://keyz182.disqus.com/embed.js https://*.twitter.com:* https://a.disquscdn.com https://c.disquscdn.com c.disquscdn.com https://*.services.disqus.com:* 'unsafe-inline' https://cdn.syndication.twimg.com/tweets.json https://connect.facebook.net/en_US/sdk.js https://referrer.disqus.com/juggler/ https://apis.google.com https://ssl.google-analytics.com https://disqus.com data:;"

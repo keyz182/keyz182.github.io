@@ -1,0 +1,20 @@
+---
+id: 12
+title: A new term, a new project..
+date: 2008-10-13T14:38:00+00:00
+author: Kieran Evans
+layout: post
+guid: 12
+blogger_blog:
+  - blagodoom.blogspot.com
+blogger_author:
+  - Keyzohttp://www.blogger.com/profile/13751255300238796056noreply@blogger.com
+blogger_permalink:
+  - /2008/10/new-term-new-project.html
+categories:
+  - 3d auditory pixels
+  - c++
+  - mocap
+  - project
+---
+<blockquote></blockquote>So, I'm finally all settled in back at university, and getting a start on my new project for the year; 3D Auditory Pixels. The brief for the project goes a little something like this:<br /><br /><blockquote>3D Auditory Pixels<br /><br />The Schools of Computer Science and Psychology have just purchased an audio system capable of<br />generating as if it is emanating from a specific point in 3D space.<br />This is achieved via control of an array of 20 small loudspeakers.<br /><br />This project will look at developing methods to generate sounds that can be placed in the 3D soundscape.<br />Some simple interface and methods for controlling the sound location will need to be implemented.<br /><br />Scope exists to also utilise 3D motion capture equipment as input to control the sound location.<br />For example, a virtual 3D "theremin" musical instrument (<a class="moz-txt-link-abbreviated" href="http://www.thereminworld.com/">www.thereminworld.com</a>) could be developed where the 3D position of<br />the hand, for example, controls parameters of a simple "theremin" sound generator.<br /><br />The loudspeakers are actually located behind an acoustically transparent video screen. So scope exists to us the<br />screen for video output. Some 3D display technologies including a 3D head mounted display or stereo viewers<br />could also be utilised.<br /><br />The first part of the project will be to devise suitable sound generation and control of the sound. The second part,<br />which could take one of many paths, would look to utilise some of the I/O technology mentioned above.<br /><br />Prerequisites: Good level of programming and algorithms. C/C++ or Java programming knowledge.<br />Some knowledge of audio and basic maths an advantage. </blockquote><br />So, in layman's terms, i get to mess around with a kick ass sound system, a WiiMote, and a sha-weet <a href="http://www.polhemus.com/">Polhemus motion capture rig</a>.<br />I've made a little progres so far, mostly just experimentation;<br /><ul><li>Capturing motion from the <a href="http://wiiyourself.gl.tter.org/">WiiYourself!</a> library</li><li>Playing randomised noise through sequencial/random or selected speakers</li><li>Trying to figure out what the hell is going on with the library written by the summer student, and figuring out where to start on a re-write</li><li>Had a look at the <a href="http://www.mega-nerd.com/libsndfile/">libsndfile</a> library and attempted to read a WAVE file to an array</li><li>Tried to figure out Visual Studio 2008s (eugh..) idiosyncrasies</li><li>Talked to an Audio-Psychophysicist from the psychology department about what he needs from an API I'll be working on, and what they'll be doing<br /></li></ul>Though it's only two weeks in, there seems to be some half decent progress being made nonetheless.<br /><br />The psychology aspect seems really interesting, involving the ways the mind interprets the senses, weights them according to their accuracy and compiles them into what you see/hear etc. For example, vision is usually the more heavier weighted, so if there's a dot on the screen, and a sound coming from near by, your mind will tell you the sound is coming from the spot. I believe this is the <a href="http://www.encyclopedia.com/doc/1O87-ventriloquismeffect.html">ventriloquism effect</a>. However, if you blur the spot, or make it much bigger, your mind lessens the weight on your vision, and instead sound takes the primary role.<br /><br />It's all crazy-crazy stuff.
