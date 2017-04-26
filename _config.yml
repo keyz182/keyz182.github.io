@@ -30,7 +30,7 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
-highlighter: true
+highlighter: 'rouge'
 encoding: utf-8
 comments: true
 webrick:
